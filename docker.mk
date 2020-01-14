@@ -3,7 +3,7 @@ include .env
 default: up
 
 COMPOSER_ROOT ?= /var/www/html
-DRUPAL_ROOT ?= /var/www/html/web
+DRUPAL_ROOT ?= /var/www/html/docroot
 
 ## help	:	Print commands help.
 .PHONY: help
